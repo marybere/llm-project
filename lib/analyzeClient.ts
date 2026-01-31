@@ -1,4 +1,4 @@
-import { AnalysisResult } from "@/components/AnalysisReport";
+import type { AnalysisResult } from "@/types/analysis";
 
 export async function analyzeFile(file: File): Promise<AnalysisResult> {
   const formData = new FormData();
